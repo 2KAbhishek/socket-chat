@@ -84,6 +84,8 @@ Hit the ⭐ button if you found this useful.
 
 ## More Info
 
+For C implementation look at [csock](https://github.com/2kabhishek/csock)
+
 <div align="center">
 
 <a href="https://github.com/2KAbhishek/socket-chat">Source</a> | <a href="https://2kabhishek.github.io/socket-chat">Website</a>
