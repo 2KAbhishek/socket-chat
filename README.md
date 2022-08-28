@@ -20,10 +20,10 @@
 <a href="https://github.com/2KAbhishek/socket-chat/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/socket-chat?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Group Chat with sockets 🔌🗨️</h3>
 
 <figure>
-  <img src= "images/screenshot.png" alt="socket-chat Demo">
+  <img src= "images/screenshot.jpg" alt="socket-chat Demo">
   <br/>
   <figcaption>socket-chat screenshot</figcaption>
 </figure>
@@ -32,17 +32,17 @@
 
 ## What is this
 
-socket-chat is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+socket-chat is a group chat application that lets you communicate with multiple clients.
 
 ## Inspiration
 
-socket-chat was inspired by `<reason/idea>`.
+Was learning about sockets wanted to build something out of it.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `jdk`
 
 ## Getting socket-chat
 
@@ -51,51 +51,34 @@ To get socket-chat, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/socket-chat
 cd socket-chat
-<install_command>
 ```
 
 ## Using socket-chat
 
+- To run the server
+
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
+cd src/server
+javac ServerMain
+java ServerMain
+```
 
-FLAGS:
-    -h, --help              Prints help information.
+- To run clients
 
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+```bash
+cd src/clients
+javac ClientMain
+java ClientMain
 ```
 
 ## How it was built
 
-socket-chat was built using `<tech/library>`
-
-## Challenges faced
-
-While building socket-chat the main challenges were `<issue/difficulty>`
+socket-chat was built using `neovim and java`
 
 ## What I learned
 
-While building socket-chat I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Learning about sockets was fun
+- Learned how to use sockets with Java
 
 Hit the ⭐ button if you found this useful.
 
